@@ -45,11 +45,11 @@ if __name__ == '__main__':
     try:
         n = int(sys.argv[1])
     except ValueError:
-        print('N must be a number')
+        print('N doit être un nombre')
         exit(1)
 
     if n < 4:
-        print('N must be at least 4')
+        print('N doit être supérieur ou égal à 4')
         exit(1)
 
     solutions = solve_n_queens(n)
